@@ -1,0 +1,94 @@
+.container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.image-container {
+  display: inline-block;
+  margin-block-end: 50px;
+  margin-block-start: 50px;
+  img {
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .image-container{
+    width: 80%;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+  }
+  .container {
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 600px) {
+  .image-container{
+    width: 90%;
+    margin-inline-end: 23px;
+    margin-inline-start: 23px;
+  }
+  .container {
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+  }
+}
+
+@media (max-width: 960px) and (min-width: 720px) {
+  .image-container{
+    width: 90%;
+    margin-inline-end: 26px;
+    margin-inline-start: 26px;
+  }
+  .container {
+    padding-inline-start: 110px;
+    padding-inline-end: 110px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 960px) {
+  .image-container{
+    width: 45%;
+    margin-inline-end: 28px;
+    margin-inline-start: 28px;
+  }
+  .container {
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .image-container{
+    width: 45%;
+    margin-inline-end: 30px;
+    margin-inline-start: 30px;
+  }
+  .container {
+    padding-inline-start: 100px;
+    padding-inline-end: 100px;
+  }
+}
+@media (min-width: 1440px) {
+  .image-container{
+    width: 29%;
+    margin-inline-end: 30px;
+    margin-inline-start: 30px;
+  }
+  .container {
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
+  }
+}
