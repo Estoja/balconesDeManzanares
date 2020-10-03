@@ -1,17 +1,98 @@
 .parent {
-  margin-inline-start: 50px;
-  margin-inline-end: 50px;
 
   h2 {
     font-size: 30px;
     color: #54710a;
   }
   .video-container {
-    height: 80%;
-    width: 80%;
     margin-inline-start: auto;
     margin-inline-end: auto;
     margin-block-start: 30px;
     margin-block-end: 50px;
   }
 }
+
+
+@media (max-width: 600px) {
+  .parent {
+    h2 {
+      margin-inline-start: 20px;
+      font-size: 30px;
+      color: #54710a;
+    }
+    .video-container {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 720px) and (min-width: 600px) {
+  .parent {
+    h2 {
+      margin-inline-start: 40px;
+      font-size: 30px;
+      color: #54710a;
+    }
+    .video-container {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 960px) and (min-width: 720px) {
+  .parent {
+    h2 {
+      margin-inline-start: 40px;
+      font-size: 30px;
+      color: #54710a;
+    }
+    .video-container {
+      height: 98%;
+      width: 98%;
+    }
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 960px) {
+  .parent {
+    h2 {
+      margin-inline-start: 40px;
+      font-size: 30px;
+      color: #54710a;
+    }
+    .video-container {
+      height: 94%;
+      width: 94%;
+    }
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .parent {
+    h2 {
+      margin-inline-start: 40px;
+      font-size: 30px;
+      color: #54710a;
+    }
+    .video-container {
+      height: 90%;
+      width: 90%;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .parent {
+    h2 {
+      margin-inline-start: 40px;
+      font-size: 30px;
+      color: #54710a;
+    }
+    .video-container {
+      height: 80%;
+      width: 80%;
+    }
+  }
+}
+

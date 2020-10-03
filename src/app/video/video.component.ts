@@ -8,22 +8,18 @@ import {VgApiService} from '@videogular/ngx-videogular/core';
 })
 export class VideoComponent {
 
-  // preload = 'auto';
-  //   api: VgApiService;
-  // constructor() { }
+  videos = [
+    '/assets/video/DJI_0001.MP4',
+    '/assets/video/DJI_0001.MP4'
+  ];
 
-  // onPlayerReady(api: VgApiService) {
-  //   this.api = api;
-  //   console.log('hola');
-  //   this.api.play();
-
-  //   this.api.getDefaultMedia().subscriptions.ended.subscribe(
-  //       () => {
-  //           // Set the video to the beginning
-  //           this.api.getDefaultMedia().currentTime = 0;
-  //           this.api.play();
-  //       }
-  //   );
-  // }
+  slideOptions = {
+    items: 1,
+    margin: 10,
+    dots: true,
+    loop: true,
+    nav: false,
+    lazyLoad: true,
+  };
 
 }

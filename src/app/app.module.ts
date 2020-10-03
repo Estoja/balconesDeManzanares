@@ -16,6 +16,8 @@ import {VgControlsModule} from '@videogular/ngx-videogular/controls';
 import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
 import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
 
+import { OwlModule } from 'ngx-owl-carousel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
     VgCoreModule,
     VgControlsModule,
     VgOverlayPlayModule,
-    VgBufferingModule
+    VgBufferingModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]
