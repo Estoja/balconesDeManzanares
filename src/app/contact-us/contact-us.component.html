@@ -1,26 +1,15 @@
 <div class="container">
   <div class="background"></div>
-  <div id="form-main">
-    <div id="form-div">
-      <form class="form" id="form1">
+  <div class="bg-text">
+    <h2>Contactanos</h2>
+    <form method="post" data-form-title="CONTACT US">
+      <div class="form-container">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+        <textarea name="text" class="validate[required,length[6,500]] feedback-input" id="comment" placeholder="Comment"></textarea>
+        <button type="submit" class="btn btn-lg btn-danger">CONTACT US</button>
 
-        <p class="name">
-          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-        </p>
-
-        <p class="email">
-          <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-        </p>
-
-        <p class="text">
-          <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-        </p>
-
-
-        <div class="submit">
-          <input type="submit" value="SEND" id="button-blue"/>
-          <div class="ease"></div>
-        </div>
-      </form>
-    </div>
+      </div>
+    </form>
+  </div>
 </div>
