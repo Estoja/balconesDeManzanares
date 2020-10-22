@@ -25,6 +25,10 @@ form {
   width: 80%;
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -39,27 +43,34 @@ form {
   margin-block-start: 50px;
   margin-block-end: 50px;
   position: static;
+  background-color: white;
+  width: 60%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  .form-container {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    input {
-      margin-block-start: 10px;
-      margin-block-end: 10px;
-    }
-    textarea {
-      margin-block-start: 10px;
-      margin-block-end: 10px;
-      height: 100px;
-    }
+  .mat-form-field {
+    width: 400px;
+    color: #504e4e;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+  }
+  .buttons {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
     button {
-      margin-block-start: 40px;
-      margin-block-end: 40px;
-
+      width: 100px;
+      margin-inline-start: 20px;
+      margin-inline-end: 20px;
     }
+  }
+
+  textarea {
+    height: 100px;
   }
 }
 

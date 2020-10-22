@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact-us',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-us.component.scss']
 })
 export class ContactUsComponent implements OnInit {
-
-  constructor() { }
-
+  emailData = {
+    name: '',
+    email: '',
+    content: ''
+  };
+//TODO: conectar el formulario con el html
   ngOnInit(): void {
+
   }
 
 }

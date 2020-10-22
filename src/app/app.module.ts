@@ -17,7 +17,10 @@ import {VgOverlayPlayModule} from '@videogular/ngx-videogular/overlay-play';
 import {VgBufferingModule} from '@videogular/ngx-videogular/buffering';
 
 import { OwlModule } from 'ngx-owl-carousel';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,11 @@ import { OwlModule } from 'ngx-owl-carousel';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatInputModule,
     VgCoreModule,
+    FormsModule,
     VgControlsModule,
     VgOverlayPlayModule,
     VgBufferingModule,
