@@ -2,11 +2,11 @@
   <div class="background"></div>
   <div class="bg-text">
     <h2>Contactanos</h2>
-    <form
+    <!-- <form
             #emailForm="ngForm"
             method="POST"
-            accept="mailto:esteban_tj@hotmail.com">
-<!-- -----------------------<name>----------------------- -->
+            action="mailto:esteban_tj@hotmail.com">
+
       <mat-form-field>
         <mat-label>Nombre</mat-label>
         <input
@@ -25,8 +25,7 @@
             Debe tener almenos 5 caracteres
           </mat-error>
       </mat-form-field>
-<!-- ---------------------</name>--------------------- -->
-<!-- -----------------------<Correo>----------------------- -->
+
       <mat-form-field>
         <mat-label>Correo</mat-label>
         <input
@@ -46,8 +45,7 @@
             Ingrese un correo valido
           </mat-error>
       </mat-form-field>
-<!-- ---------------------</Correo>--------------------- -->
-<!-- -----------------------<Contenido>----------------------- -->
+
       <mat-form-field>
         <mat-label>Contenido</mat-label>
         <textarea
@@ -67,18 +65,24 @@
             Debe tener almenos 20 caracteres
           </mat-error>
       </mat-form-field>
-<!-- ---------------------</Contenido>--------------------- -->
+
       <div class="buttons">
         <button
                 type="submit"
                 [disabled]="emailForm.invalid"
                 mat-raised-button color="primary">Enviar</button>
         <button
-                type="submit"
+                type="button"
                 (click)="emailForm.resetForm({})"
                 mat-raised-button>Borrar</button>
       </div>
-    </form>
+    </form> -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeAVymH8NiqWtjAqh-r6Mok8gRssrvN1W9vSo1yd8HptFGMzQ/viewform?embedded=true"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0">
+      Cargando…
+    </iframe>
 
   </div>
 </div>
