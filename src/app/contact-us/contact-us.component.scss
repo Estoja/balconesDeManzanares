@@ -1,6 +1,5 @@
 .background {
   width: 100vw;
-  height: 98vh;
   background:url("../../assets/images/_ALA8487.jpg") no-repeat;
   background-size: cover;
   filter: blur(10px);
@@ -39,30 +38,22 @@ iframe {
 
 @media (max-width: 600px) {
   iframe {
-    height: 830px;
+    height: 1270px;
   }
   .background {
-    height: 120vh;
+    height: 160vh;
   }
 }
 
-@media (max-width: 960px) and (min-width: 600px) {
+@media (min-width: 600px) {
   iframe {
-    height: 730px;
+    height: 1180px;
   }
   .background {
-    height: 100vh;
+    height: 150vh;
   }
 }
 
-@media(min-width: 960px) {
-  iframe {
-    height: 730px;
-  }
-  .background {
-    height: 100vh;
-  }
-}
 
 
 // form {

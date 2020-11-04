@@ -12,6 +12,18 @@
   }
 }
 
+.text {
+  margin-inline-start: 0;
+  margin-inline-end: 10px;
+  margin-block-end: 100px;
+
+  p {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+  }
+}
+
 
 @media (max-width: 600px) {
   .parent {

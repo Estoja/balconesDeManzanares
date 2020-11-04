@@ -9,8 +9,8 @@ import {VgApiService} from '@videogular/ngx-videogular/core';
 export class VideoComponent {
 
   videos = [
-    '/assets/video/DJI_0001.MP4',
-    '/assets/video/DJI_0001.MP4'
+    '/assets/video/DJI_0062_1.mp4',
+    '/assets/video/DJI_0053.MP4'
   ];
 
   slideOptions = {
